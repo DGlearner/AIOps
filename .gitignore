@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Python caches and local runtime files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment and editor state
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.vscode/
+
+# Logs and generated local artifacts
+*.log
+backend/Logs/
+frontend/ops-console-*.png
+
+# Large local model artifacts
+backend/src/crossst/services/embedding/embed_model/
