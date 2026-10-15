@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scenario": "realistic_mix",
+  "raw_log_count": 5000,
+  "payload_count": 5000,
+  "expected": {
+    "event_types": [
+      "unclassified_log",
+      "mysql_connection_refused",
+      "app_db_connection_error",
+      "login_failed"
+    ],
+    "alert_types": [
+      "mysql_connection_refused",
+      "app_db_connection_error_threshold",
+      "ssh_login_failed_threshold"
+    ],
+    "incident_type": "mixed_operational_incidents",
+    "severity": "mixed"
+  }
+}

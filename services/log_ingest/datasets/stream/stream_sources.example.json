@@ -1,0 +1,81 @@
+{
+  "batch_size": 5,
+  "rate_per_second": 10,
+  "sources": [
+    {
+      "name": "linux-auth-prod",
+      "source_type": "linux",
+      "source_name": "auth.log",
+      "host": "app-prod-01",
+      "file": "linux_auth.log",
+      "batch_size": 5,
+      "rate_per_second": 10,
+      "enabled": true
+    },
+    {
+      "name": "linux-syslog-prod",
+      "source_type": "linux",
+      "source_name": "syslog",
+      "host": "app-prod-01",
+      "file": "linux_syslog.log",
+      "batch_size": 5,
+      "rate_per_second": 20,
+      "enabled": true
+    },
+    {
+      "name": "mysql-error-prod",
+      "source_type": "mysql",
+      "source_name": "mysql-error.log",
+      "host": "db-prod-01",
+      "file": "mysql_error.log",
+      "batch_size": 5,
+      "rate_per_second": 8,
+      "service": "mysql",
+      "enabled": true
+    },
+    {
+      "name": "mysql-slow-query-prod",
+      "source_type": "mysql",
+      "source_name": "mysql-slow.log",
+      "host": "db-prod-01",
+      "file": "mysql_slow_query.log",
+      "batch_size": 5,
+      "rate_per_second": 6,
+      "service": "mysql",
+      "enabled": true
+    },
+    {
+      "name": "app-login-service",
+      "source_type": "app_service",
+      "source_name": "login-service.log",
+      "host": "app-prod-01",
+      "file": "app_login_service.log",
+      "batch_size": 5,
+      "rate_per_second": 10,
+      "service": "login-service",
+      "enabled": true
+    },
+    {
+      "name": "app-payment-service",
+      "source_type": "app_service",
+      "source_name": "payment-service.log",
+      "host": "app-prod-02",
+      "file": "app_payment_service.log",
+      "batch_size": 5,
+      "rate_per_second": 8,
+      "service": "payment-service",
+      "enabled": true
+    },
+    {
+      "name": "app-order-service",
+      "source_type": "app_service",
+      "source_name": "order-service.log",
+      "host": "app-prod-02",
+      "file": "app_order_service.log",
+      "batch_size": 5,
+      "rate_per_second": 8,
+      "service": "order-service",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{"source_type":"mysql","host":"db-prod-01","source_name":"mysql-error.log","logs":["2026-06-03T14:05:00.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"]}
+{"source_type":"app_service","host":"app-prod-01","logs":["2026-06-03T14:05:01 login-service ERROR DB connection refused"]}
+{"source_type":"app_service","host":"app-prod-01","logs":["2026-06-03T14:05:02 login-service ERROR DB connection refused"]}
+{"source_type":"linux","source_name":"auth.log","logs":["Jun  3 14:05:03 app-prod-01 sshd[2401]: Failed password for root from 9.9.9.9 port 53001 ssh2"]}
+{"source_type":"linux","source_name":"auth.log","logs":["Jun  3 14:05:04 app-prod-01 sshd[2402]: Failed password for root from 9.9.9.9 port 53002 ssh2"]}
+{"source_type":"linux","source_name":"auth.log","logs":["Jun  3 14:05:05 app-prod-01 sshd[2403]: Failed password for root from 9.9.9.9 port 53003 ssh2"]}

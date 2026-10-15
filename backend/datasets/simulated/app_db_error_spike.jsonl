@@ -1,0 +1,2 @@
+{"source_type":"app_service","host":"app-prod-01","logs":["2026-06-03T14:04:05 login-service ERROR DB connection refused"]}
+{"source_type":"app_service","host":"app-prod-01","logs":["2026-06-03T14:04:06 login-service ERROR DB connection refused"]}

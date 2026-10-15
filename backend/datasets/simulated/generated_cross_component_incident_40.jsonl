@@ -1,0 +1,40 @@
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:00:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:01:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:02:12 app-prod-01 sshd[2302]: Failed password for root from 8.8.8.8 port 52002 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:03:01 app-prod-01 systemd[1]: Started routine maintenance job 3."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:04:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:05:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:06:12 app-prod-01 sshd[2306]: Failed password for root from 8.8.8.8 port 52006 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:07:01 app-prod-01 systemd[1]: Started routine maintenance job 7."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:08:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:09:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:10:12 app-prod-01 sshd[2310]: Failed password for root from 8.8.8.8 port 52010 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:11:01 app-prod-01 systemd[1]: Started routine maintenance job 11."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:12:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:13:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:14:12 app-prod-01 sshd[2314]: Failed password for root from 8.8.8.8 port 52014 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:15:01 app-prod-01 systemd[1]: Started routine maintenance job 15."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:16:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:17:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:18:12 app-prod-01 sshd[2318]: Failed password for root from 8.8.8.8 port 52018 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:19:01 app-prod-01 systemd[1]: Started routine maintenance job 19."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:20:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:21:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:22:12 app-prod-01 sshd[2322]: Failed password for root from 8.8.8.8 port 52022 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:23:01 app-prod-01 systemd[1]: Started routine maintenance job 23."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:24:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:25:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:26:12 app-prod-01 sshd[2326]: Failed password for root from 8.8.8.8 port 52026 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:27:01 app-prod-01 systemd[1]: Started routine maintenance job 27."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:28:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:29:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:30:12 app-prod-01 sshd[2330]: Failed password for root from 8.8.8.8 port 52030 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:31:01 app-prod-01 systemd[1]: Started routine maintenance job 31."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:32:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:33:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:34:12 app-prod-01 sshd[2334]: Failed password for root from 8.8.8.8 port 52034 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:35:01 app-prod-01 systemd[1]: Started routine maintenance job 35."], "host": "app-prod-01"}
+{"source_type": "mysql", "source_name": "mysql-error.log", "logs": ["2026-06-03T14:36:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"], "host": "db-prod-01"}
+{"source_type": "app_service", "source_name": "login-service.log", "logs": ["2026-06-03T14:37:22Z login-service ERROR database connection refused"], "host": "app-prod-01", "service": "login-service"}
+{"source_type": "linux", "source_name": "auth.log", "logs": ["Jun  3 14:38:12 app-prod-01 sshd[2338]: Failed password for root from 8.8.8.8 port 52038 ssh2"], "host": "app-prod-01"}
+{"source_type": "linux", "source_name": "syslog", "logs": ["Jun  3 14:39:01 app-prod-01 systemd[1]: Started routine maintenance job 39."], "host": "app-prod-01"}

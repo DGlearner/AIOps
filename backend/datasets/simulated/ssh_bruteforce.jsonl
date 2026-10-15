@@ -1,0 +1,3 @@
+{"source_type":"linux","source_name":"auth.log","logs":["Jun  3 14:03:12 app-prod-01 sshd[2311]: Failed password for root from 8.8.8.8 port 52231 ssh2"]}
+{"source_type":"linux","source_name":"auth.log","logs":["Jun  3 14:03:13 app-prod-01 sshd[2312]: Failed password for root from 8.8.8.8 port 52232 ssh2"]}
+{"source_type":"linux","source_name":"auth.log","logs":["Jun  3 14:03:14 app-prod-01 sshd[2313]: Failed password for root from 8.8.8.8 port 52233 ssh2"]}

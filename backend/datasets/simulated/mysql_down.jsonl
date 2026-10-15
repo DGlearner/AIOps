@@ -1,0 +1,1 @@
+{"source_type":"mysql","host":"db-prod-01","source_name":"mysql-error.log","logs":["2026-06-03T14:04:02.123456Z 0 [ERROR] Can't connect to local MySQL server through socket"]}
